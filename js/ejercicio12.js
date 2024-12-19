@@ -6,8 +6,6 @@ function adivinarNumero() {
     while(true) {
         let intento = parseInt(prompt("Adivina el número entre 1 y 10"))
 
-        
-    
         if(intento === numAleatorio) {
             alert("¡Felicitaciones! ¡Adivinaste el número!")
             break
