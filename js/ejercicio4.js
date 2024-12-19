@@ -7,7 +7,7 @@ function contarVocales() {
     for(let i = 0; i < palabra.length; i++) {
         let letra = palabra[i]
         
-        if(letra === a || letra === e || letra === i || letra === o || letra === u) {
+        if(letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u") {
             contador++
         }
     }
